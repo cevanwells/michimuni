@@ -1,0 +1,10 @@
+[Core]
+name = michmuni
+module = michmuni
+
+[Documentation]
+description = Search for Michigan municipal unit, given and address.
+
+[Python]
+version = 3
+

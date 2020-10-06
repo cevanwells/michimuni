@@ -45,4 +45,4 @@ class Michmuni(BotPlugin):
 If you are sure that you typed it correctly, it might not be a valid address in Michigan. I'm not overly sophisticated, so you might want to try another method of verification."""
         if res.startswith('City') or res.startswith('Village'):
             res = "the " + res
-        return f"That address lies within {res}"
+        return "That address lies within {}".format(res)

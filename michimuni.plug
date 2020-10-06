@@ -1,6 +1,6 @@
 [Core]
-name = michmuni
-module = michmuni
+name = michimuni
+module = michimuni
 
 [Documentation]
 description = Search for Michigan municipal unit, given and address.

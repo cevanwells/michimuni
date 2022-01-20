@@ -25,7 +25,7 @@ class Michmuni(BotPlugin):
     def _parse_municipality(self, htmlstr):
         html = lxml.html.fromstring(htmlstr)
         municipality = html.find_class('ccd-page-heading')[1].text
-        return municipality.strip()
+        return municipality[:-6].strip()
 
     # Passing split_args_with=None will cause arguments to be split on any kind
     # of whitespace, just like Python's split() does
